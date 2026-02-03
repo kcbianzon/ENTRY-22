@@ -14,8 +14,8 @@
     --color-light-gray: #ffffff;
 
     /* Typography */
-    --font-primary: 'Helvetica Neue', Arial, sans-serif;
-    --font-accent: 'Times New Roman', serif;
+    --font-primary: 'Futura', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    --font-accent: 'Futura', 'Century Gothic', sans-serif;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -310,9 +310,9 @@ p {
 .hero-subtitle {
     font-size: clamp(1.1rem, 2vw, 1.5rem);
     margin-bottom: var(--spacing-md);
-    color: var(--color-light-gray);
-    font-style: italic;
-    font-family: var(--font-accent);
+    color: var(--color-white);
+    font-weight: 300;
+    letter-spacing: 0.05em;
 }
 
 /* ===================================
@@ -326,10 +326,10 @@ p {
 }
 
 .statement-text {
-    font-family: var(--font-accent);
-    font-style: italic;
-    font-weight: 400;
+    font-family: var(--font-primary);
+    font-weight: 300;
     color: var(--color-black);
+    letter-spacing: 0.05em;
 }
 
 /* ===================================
@@ -341,6 +341,7 @@ p {
     margin-bottom: var(--spacing-lg);
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    font-weight: 500;
 }
 
 /* ===================================
